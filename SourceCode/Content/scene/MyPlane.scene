@@ -1,0 +1,28 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="39.3701" minOgreVersion="1.7" ogreMaxVersion="2.3.17" author="OgreMax Scene Exporter (www.ogremax.com)" application="3DS Max">
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333" />
+        <colourBackground r="0" g="0" b="0" />
+        <clipping near="0" far="100000" />
+    </environment>
+    <nodes>
+        <node name="Plane001">
+            <position x="2.69255" y="-3.19029e-007" z="-7.29854" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Plane001" castShadows="true" receiveShadows="true" meshFile="Plane001.mesh">
+                <subentities>
+                    <subentity index="0" materialName="NoMaterial" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Plane002">
+            <position x="-8.62939" y="1.39263e-008" z="0.318596" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <plane name="Plane002" castShadows="true" receiveShadows="true" distance="-0" width="200.942" height="159.448" xSegments="4" ySegments="4" numTexCoordSets="1" uTile="1" vTile="1" material="NoMaterial" normals="true" movablePlane="true">
+                <normal x="-0" y="1" z="0" />
+                <upVector x="0" y="0" z="-1" />
+            </plane>
+        </node>
+    </nodes>
+</scene>

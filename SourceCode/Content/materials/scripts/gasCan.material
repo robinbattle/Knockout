@@ -1,0 +1,26 @@
+material Tank
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.251563 0.312500 0.675000
+			diffuse 0.251563 0.312500 0.675000
+			specular 0.251563 0.312500 0.675000 0.100000
+		}
+	}
+}
+
+material Tubes
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.251563 0.312500 0.675000
+			diffuse 0.251563 0.312500 0.675000
+			specular 0.251563 0.312500 0.675000 0.100000
+		}
+	}
+}
+

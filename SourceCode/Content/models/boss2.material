@@ -1,0 +1,70 @@
+material boss2_0
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture CenariusBody.tga -1
+			}
+		}
+	}
+}
+material boss2_1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture CENARIUSACCESSORIES.tga -1
+			}
+		}
+	}
+}
+material boss2_2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture CenariusAccessories.tga -1
+			}
+		}
+	}
+}
+material boss2_3
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture CenariusBody.tga -1
+			}
+		}
+	}
+}
+material boss2_4
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture NIGHTELFMALEEYEGLOW.tga -1
+			}
+		}
+	}
+}

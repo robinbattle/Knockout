@@ -1,0 +1,26 @@
+
+material Material#3
+{
+	technique Map#0
+	{
+		pass Map#1
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.898039 0.898039 0.898039 1 20
+			emissive 0 0.0705882 0.211765 1
+
+			texture_unit Map#2
+			{
+				texture bar.png 3d
+				tex_address_mode mirror
+				filtering anisotropic anisotropic linear
+				env_map planar
+			}
+		}
+
+	}
+
+}
+
+

@@ -1,0 +1,44 @@
+
+material AC3D/blueballoon/Mat009_Tex00
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.604 0.6 0.573 1
+			diffuse 0 0 1 1
+			specular 0 0 0 1 128
+			alpha_rejection greater 0
+
+			texture_unit
+			{
+				texture balloon1.png 2147483647
+			}
+		}
+
+	}
+
+}
+
+material AC3D/blueballoon/Mat000_Tex00
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.2 0.2 0.2 1
+			diffuse 0 0 0 1
+			specular 0.2 0.2 0.2 1 128
+			alpha_rejection greater 0
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture balloon1.png 2147483647
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,199 @@
+material myMoive
+{
+    technique
+    {
+       pass
+       {
+
+           texture_unit
+           {
+               texture healthy.png
+             }
+       }
+    }
+}
+
+material healthy_bar
+{
+    technique
+    {
+       pass
+       {
+
+           texture_unit
+           {
+               texture healthy.png
+             }
+       }
+    }
+}
+
+material game_win
+{
+    technique
+    {
+       pass
+       {
+
+           texture_unit
+           {
+               texture gamewin.jpg
+             }
+       }
+    }
+}
+
+
+material game_over
+{
+    technique
+    {
+       pass
+       {
+
+           texture_unit
+           {
+               texture gameover.jpg
+             }
+       }
+    }
+}
+
+material introduction
+{
+    technique
+    {
+       pass
+       {
+
+           texture_unit
+           {
+               texture introduction.jpg
+             }
+       }
+    }
+}
+
+material exp_bar
+{
+    technique
+    {
+       pass
+       {
+
+           texture_unit
+           {
+               texture exp.png
+             }
+       }
+    }
+}
+
+material tower1
+{
+    technique
+    {
+       pass
+       {
+
+           texture_unit
+           {
+               texture tower1.jpg
+             }
+       }
+    }
+}
+
+
+material tower2
+{
+    technique
+    {
+       pass
+       {
+
+           texture_unit
+           {
+               texture tower2.jpg
+             }
+       }
+    }
+}
+
+material tower3
+{
+    technique
+    {
+       pass
+       {
+
+           texture_unit
+           {
+               texture snow.jpg
+             }
+       }
+    }
+}
+
+material tower4
+{
+    technique
+    {
+       pass
+       {
+
+           texture_unit
+           {
+               texture hand.jpg
+             }
+       }
+    }
+}
+
+
+
+material defenceMode
+{
+    technique
+    {
+       pass
+       {
+
+           texture_unit
+           {
+               texture defence.jpg
+             }
+       }
+    }
+}
+
+material attackMode
+{
+    technique
+    {
+       pass
+       {
+
+           texture_unit
+           {
+               texture attack.jpg
+             }
+       }
+    }
+}
+
+material money_icon
+{
+    technique
+    {
+       pass
+       {
+
+           texture_unit
+           {
+               texture money_bag.png
+             }
+       }
+    }
+}
+

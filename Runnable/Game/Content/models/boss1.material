@@ -1,0 +1,154 @@
+material boss1_0
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture AKAMA.tga -1
+			}
+		}
+	}
+}
+material boss1_1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture AKAMA.tga -1
+			}
+		}
+	}
+}
+material boss1_2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture AKAMABRACERSKIRTBELT.tga -1
+			}
+		}
+	}
+}
+material boss1_3
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture AKAMABRACERSKIRTBELT.tga -1
+			}
+		}
+	}
+}
+material boss1_4
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture AKAMA.tga -1
+			}
+		}
+	}
+}
+material boss1_5
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture AKAMABRACERSKIRTBELT.tga -1
+			}
+		}
+	}
+}
+material boss1_6
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture LOSTONE_SKULLBAG.tga -1
+			}
+		}
+	}
+}
+material boss1_7
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture AKAMABRACERSKIRTBELT.tga -1
+			}
+		}
+	}
+}
+material boss1_8
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture AKAMA.tga -1
+			}
+		}
+	}
+}
+material boss1_9
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture AKAMA.tga -1
+			}
+		}
+	}
+}
+material boss1_10
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture AKAMAEYEGLOWBLUE.tga -1
+			}
+		}
+	}
+}

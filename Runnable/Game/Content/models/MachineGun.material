@@ -1,0 +1,17 @@
+
+material Material#5
+{
+	technique Map#0
+	{
+		pass Map#1
+		{
+			ambient vertexcolour
+			diffuse vertexcolour
+			specular 0.898039 0.898039 0.898039 1 20
+		}
+
+	}
+
+}
+
+

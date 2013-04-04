@@ -1,0 +1,52 @@
+material Crystal
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.851563 0.312500 0.375000
+			diffuse 0.851563 0.312500 0.375000
+			specular 0.851563 0.312500 0.375000 0.100000
+		}
+	}
+}
+
+material Building
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.851563 0.312500 0.375000
+			diffuse 0.851563 0.312500 0.375000
+			specular 0.851563 0.312500 0.375000 0.100000
+		}
+	}
+}
+
+material Standard_17f;222
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.851563 0.312500 0.375000
+			diffuse 0.851563 0.312500 0.375000
+			specular 0.851563 0.312500 0.375000 0.100000
+		}
+	}
+}
+
+material test2222
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.851563 0.312500 0.375000
+			diffuse 0.851563 0.312500 0.375000
+			specular 0.851563 0.312500 0.375000 0.100000
+		}
+	}
+}
+

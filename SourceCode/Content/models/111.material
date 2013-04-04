@@ -1,0 +1,28 @@
+
+material NoMaterial
+{
+	technique
+	{
+		pass
+		{
+		}
+
+	}
+
+}
+
+
+
+material Material#5
+{
+	technique
+	{
+		pass
+		{
+		}
+
+	}
+
+}
+
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<scene formatVersion="1.0.0" generator="Ogitor SceneBuilder 0.4.4">
+    <resourceLocations>
+        <resourceLocation type="FileSystem" name="E:/ogre/Ogitor" />
+    </resourceLocations>
+    <environment>
+        <scenemanager name="SceneManager" id="509079264" type="OctreeSceneManager" />
+        <colourAmbient r="0.5" g="0.5" b="0.5" a="1" />
+        <fog mode="none" start="0" end="1000" density="0">
+            <colour r="0.5" g="0.5" b="0.5" a="1" />
+        </fog>
+        <viewport name="Viewport1" id="2000000002" index="1">
+            <colour r="0" g="0" b="0" a="1" />
+        </viewport>
+        <camera name="intViewCamera1" viewMode="0" polyMode="3" fov="1">
+            <clipping near="1" far="3000" />
+            <position x="-597.551" y="132.747" z="624.549" />
+            <rotation qw="-0.895837" qx="0.444216" qy="0.0127032" qz="0.00630279" />
+        </camera>
+    </environment>
+    <terrain worldSize="512" mapSize="129" pagenameprefix="Page" colourmapEnabled="false" colourMapTextureSize="128" tuningCompositeMapDistance="2000" tuningMaxPixelError="3" tuningMinBatchSize="33" tuningMaxBatchSize="65" tuningSkirtSize="10" tuningUseRayBoxDistancealculation="false">
+        <terrainPages>
+            <terrainPage name="Page_ffffffff.ogt" pageX="-1" pageY="-1" />
+        </terrainPages>
+    </terrain>
+    <light name="Light#0" id="680471168" type="point" castShadows="true">
+        <position x="-512" y="300" z="512" />
+        <colourDiffuse r="1" g="1" b="1" a="1" />
+        <colourSpecular r="0" g="0" b="0" a="1" />
+        <lightAttenuation range="100" constant="1" linear="0.5" quadratic="0" />
+    </light>
+    <nodes />
+</scene>

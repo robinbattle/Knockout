@@ -1,0 +1,26 @@
+material Standard_8
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.551563 0.512500 0.075000
+			diffuse 0.551563 0.512500 0.075000
+			specular 0.551563 0.512500 0.075000 0.100000
+		}
+	}
+}
+
+material Material_#52
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.551563 0.512500 0.075000
+			diffuse 0.551563 0.512500 0.075000
+			specular 0.551563 0.512500 0.075000 0.100000
+		}
+	}
+}
+

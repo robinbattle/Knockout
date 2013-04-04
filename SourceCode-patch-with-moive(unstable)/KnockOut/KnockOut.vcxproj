@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Release\BaseObject.cpp" />
+    <ClCompile Include="Source\AIManager.cpp" />
+    <ClCompile Include="Source\BaseFactory.cpp" />
+    <ClCompile Include="Source\BaseTower.cpp" />
+    <ClCompile Include="Source\Bullet.cpp" />
+    <ClCompile Include="Source\BulletFactory.cpp" />
+    <ClCompile Include="Source\CollisionManager.cpp" />
+    <ClCompile Include="Source\CVDShowUtil.cpp" />
+    <ClCompile Include="Source\DebugOverlay.cpp" />
+    <ClCompile Include="Source\Enemy.cpp" />
+    <ClCompile Include="Source\EnemyBoss1.cpp" />
+    <ClCompile Include="Source\EnemyBoss2.cpp" />
+    <ClCompile Include="Source\EnemyDragon.cpp" />
+    <ClCompile Include="Source\EnemyFactory.cpp" />
+    <ClCompile Include="Source\EnemyTroll.cpp" />
+    <ClCompile Include="Source\h-genutils.cpp" />
+    <ClCompile Include="Source\InputHandler.cpp" />
+    <ClCompile Include="Source\LightChain.cpp" />
+    <ClCompile Include="Source\main.cpp" />
+    <ClCompile Include="Source\Movabletext.cpp" />
+    <ClCompile Include="Source\ObjectPlacement.cpp" />
+    <ClCompile Include="Source\Obstacle.cpp" />
+    <ClCompile Include="Source\ObstacleFactory.cpp" />
+    <ClCompile Include="Source\OgreKnockOut.cpp" />
+    <ClCompile Include="Source\KnockOutCamera.cpp" />
+    <ClCompile Include="Source\KnockOutListeners.cpp" />
+    <ClCompile Include="Source\PathGenerater.cpp" />
+    <ClCompile Include="Source\PathManager.cpp" />
+    <ClCompile Include="Source\Player.cpp" />
+    <ClCompile Include="Source\PlayerFactory.cpp" />
+    <ClCompile Include="Source\TowerA.cpp" />
+    <ClCompile Include="Source\TowerB.cpp" />
+    <ClCompile Include="Source\TowerC.cpp" />
+    <ClCompile Include="Source\TowerFactory.cpp" />
+    <ClCompile Include="Source\UserGUI.cpp" />
+    <ClCompile Include="Source\UtilsOgreDShow.cpp" />
+    <ClCompile Include="Source\Wall.cpp" />
+    <ClCompile Include="Source\WallFactory.cpp" />
+    <ClCompile Include="Source\World.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\AIManager.h" />
+    <ClInclude Include="Include\BaseFactory.h" />
+    <ClInclude Include="Include\BaseTower.h" />
+    <ClInclude Include="Include\Bullet.h" />
+    <ClInclude Include="Include\BulletFactory.h" />
+    <ClInclude Include="Include\CollisionManager.h" />
+    <ClInclude Include="Include\Common.h" />
+    <ClInclude Include="Include\Constants.h" />
+    <ClInclude Include="Include\CVDShowUtil.h" />
+    <ClInclude Include="Include\DebugOverlay.h" />
+    <ClInclude Include="Include\Enemy.h" />
+    <ClInclude Include="Include\EnemyBoss1.h" />
+    <ClInclude Include="Include\EnemyBoss2.h" />
+    <ClInclude Include="Include\EnemyDragon.h" />
+    <ClInclude Include="Include\EnemyFactory.h" />
+    <ClInclude Include="Include\EnemyTroll.h" />
+    <ClInclude Include="Include\h-genutils.h" />
+    <ClInclude Include="Include\InputHandler.h" />
+    <ClInclude Include="Include\BaseObject.h" />
+    <ClInclude Include="Include\LightChain.h" />
+    <ClInclude Include="Include\MovableText.h" />
+    <ClInclude Include="Include\Node.h" />
+    <ClInclude Include="Include\ObjectPlacement.h" />
+    <ClInclude Include="Include\Obstacle.h" />
+    <ClInclude Include="Include\ObstacleFactory.h" />
+    <ClInclude Include="Include\OgreKnockOut.h" />
+    <ClInclude Include="Include\PathFinding.h" />
+    <ClInclude Include="Include\PathGenerater.h" />
+    <ClInclude Include="Include\PathManager.h" />
+    <ClInclude Include="Include\Player.h" />
+    <ClInclude Include="Include\PlayerFactory.h" />
+    <ClInclude Include="Include\SingletonT.h" />
+    <ClInclude Include="Include\KnockOutCamera.h" />
+    <ClInclude Include="Include\KnockOutListeners.h" />
+    <ClInclude Include="Include\TowerA.h" />
+    <ClInclude Include="Include\TowerB.h" />
+    <ClInclude Include="Include\TowerC.h" />
+    <ClInclude Include="Include\TowerFactory.h" />
+    <ClInclude Include="Include\UserGUI.h" />
+    <ClInclude Include="Include\UtilsOgreDshow.h" />
+    <ClInclude Include="Include\UtilsOgreDshow_private.h" />
+    <ClInclude Include="Include\Wall.h" />
+    <ClInclude Include="Include\WallFactory.h" />
+    <ClInclude Include="Include\World.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{10CB3D38-E715-4855-95A4-23946EC323C1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>PongAssignment</RootNamespace>
+    <ProjectName>KnockOut</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(CEGUI_HOME)\cegui\include;Include;$(OGRE_HOME)\boost_1_44\;$(OGRE_HOME)\include;$(OGRE_HOME)\include\OIS;$(OGRE_HOME)\include\OGRE</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(OGRE_HOME)/boost_1_44/lib;$(OGRE_HOME)/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OgreMain_d.lib;OIS_d.lib;CEGUIBase_d.lib;CEGUIOgreRenderer_d.lib;strmiids.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OGRE_HOME)\bin\$(Configuration)\*.dll"  "$(OutDir)"
+copy "$(ProjectDir)resources_d.cfg" "$(OutDir)"
+copy "$(ProjectDir)plugins_d.cfg" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN64;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>Include;$(OGRE_HOME)\boost_1_44\;$(OGRE_HOME)\include\OGRE;$(OGRE_HOME)\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(OGRE_HOME)/boost_1_44/lib;$(OGRE_HOME)/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OgreMain_d.lib;OIS_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OGRE_HOME)\bin\$(Configuration)\*.dll"  "$(OutDir)"
+copy "$(ProjectDir)resources_d.cfg" "$(OutDir)"
+copy "$(ProjectDir)plugins_d.cfg" "$(OutDir)"
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(CEGUI_HOME)\cegui\include;$(OGRE_HOME)\boost_1_44\;Include;$(OGRE_HOME)\include;$(OGRE_HOME)\include\OIS;$(OGRE_HOME)\include\OGRE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>OgreMain.lib;OIS.lib;CEGUIBase.lib;CEGUIOgreRenderer.lib;strmiids.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OGRE_HOME)/boost_1_44/lib;$(OGRE_HOME)/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OGRE_HOME)\bin\$(Configuration)\*.dll"  "$(OutDir)"
+copy "$(ProjectDir)resources.cfg" "$(OutDir)"
+copy "$(ProjectDir)plugins.cfg" "$(OutDir)"
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>Include;$(OGRE_HOME)\include\OGRE;$(OGRE_HOME)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>OgreMain.lib;OIS.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OGRE_HOME)/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OGRE_HOME)\bin\$(Configuration)\*.dll"  "$(OutDir)"
+copy "$(ProjectDir)resources.cfg" "$(OutDir)"
+copy "$(ProjectDir)plugins.cfg" "$(OutDir)"
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

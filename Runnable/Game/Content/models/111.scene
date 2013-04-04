@@ -1,0 +1,39 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="39.3701" minOgreVersion="1.7" ogreMaxVersion="2.3.18" author="OgreMax Scene Exporter (www.ogremax.com)" application="3DS Max">
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333" />
+        <colourBackground r="0" g="0" b="0" />
+        <clipping near="0" far="100000" />
+    </environment>
+    <nodes>
+        <node name="Pyramid001">
+            <position x="318.23" y="-1.83072" z="-596.993" />
+            <scale x="1.79307" y="5.95955" z="3.23492" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Pyramid001" castShadows="true" receiveShadows="true" meshFile="Pyramid001.mesh">
+                <subentities>
+                    <subentity index="0" materialName="Material#5" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Pyramid002">
+            <position x="-40.2796" y="0.00504247" z="971.578" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Pyramid002" castShadows="true" receiveShadows="true" meshFile="Pyramid002.mesh">
+                <subentities>
+                    <subentity index="0" materialName="NoMaterial" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Cone001">
+            <position x="-395.052" y="-3.16555e-005" z="-724.193" />
+            <scale x="1.79536" y="1.79536" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Cone001" castShadows="true" receiveShadows="true" meshFile="Cone001.mesh">
+                <subentities>
+                    <subentity index="0" materialName="NoMaterial" />
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>

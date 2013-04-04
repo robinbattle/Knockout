@@ -1,0 +1,70 @@
+material tower2_0
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture HumanGuardTowerSkin04.tga -1
+			}
+		}
+	}
+}
+material tower2_1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture HumanGuardTowerSkin02.tga -1
+			}
+		}
+	}
+}
+material tower2_2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture HumanGuardTowerSkin01.tga -1
+			}
+		}
+	}
+}
+material tower2_3
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture HumanGuardTowerSkin03.tga -1
+			}
+		}
+	}
+}
+material tower2_4
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture HUMANGUARDTOWERSKIN05.tga -1
+			}
+		}
+	}
+}

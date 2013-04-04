@@ -1,0 +1,168 @@
+material tower1_0
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture StoneWallBrian02c.tga -1
+			}
+		}
+	}
+}
+material tower1_1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture StoneWallBrian03.tga -1
+			}
+		}
+	}
+}
+material tower1_2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture TowerWindow01.tga -1
+			}
+		}
+	}
+}
+material tower1_3
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture StoneWallBrian04a.tga -1
+			}
+		}
+	}
+}
+material tower1_4
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture GuardTowerDoor01.tga -1
+			}
+		}
+	}
+}
+material tower1_5
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture HumanWatchTowerWood.tga -1
+			}
+		}
+	}
+}
+material tower1_6
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture HumanWatchTowerWood01.tga -1
+			}
+		}
+	}
+}
+material tower1_7
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture WatchTowerDoor01.tga -1
+			}
+		}
+	}
+}
+material tower1_8
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture HumanWatchTowerScopeSide.tga -1
+			}
+		}
+	}
+}
+material tower1_9
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture HumanWatchTowerLens.tga -1
+			}
+		}
+	}
+}
+material tower1_10
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture HumanWatchTowerReflect.tga -1
+			}
+		}
+	}
+}
+material tower1_11
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture HumanWatchTowerSkin02.tga -1
+			}
+		}
+	}
+}

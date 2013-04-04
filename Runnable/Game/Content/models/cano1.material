@@ -1,0 +1,22 @@
+
+material AC3D/cano1/Mat001_Tex00
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.2 0.2 0.2 1
+			specular 0.2 0.2 0.2 1 128
+			alpha_rejection greater 0
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture cano1.bmp 2147483647
+			}
+		}
+
+	}
+
+}

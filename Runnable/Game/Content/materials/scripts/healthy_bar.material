@@ -1,0 +1,15 @@
+material healthy_bar
+{
+    technique
+    {
+       pass
+       {
+
+           texture_unit
+           {
+               texture healthy.png
+             }
+       }
+    }
+}
+

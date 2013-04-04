@@ -1,0 +1,31 @@
+#pragma once
+#include "Common.h"
+#include "Enemy.h"
+#include "MovableText.h"
+#include "UserGUI.h"
+
+namespace KnockOut
+{
+
+	using namespace Ogre;
+
+	class EnemyTroll : public Enemy
+	{
+		
+	public:
+		EnemyTroll(int ID): Enemy(ID)
+		{
+
+		}
+		~EnemyTroll();
+
+		void update(float time);
+
+		void setUp();
+		std::string appropriateName(NAME_TYPE type);
+		void destroy();
+
+		
+	};
+}
+

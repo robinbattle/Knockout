@@ -1,0 +1,45 @@
+
+material AC3D/slycastle2/Mat001_Tex00
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.2 0.2 0.2 1
+			specular 0.2 0.2 0.2 1 128
+			alpha_rejection greater 0
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture castle.bmp 2147483647
+			}
+		}
+
+	}
+
+}
+
+material AC3D/slycastle2/Mat012_Tex00
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.2 0.2 0.2 1
+			diffuse 0.266667 0.266667 0.266667 1
+			specular 0.2 0.2 0.2 1 128
+			alpha_rejection greater 0
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture castle.bmp 2147483647
+			}
+		}
+
+	}
+
+}

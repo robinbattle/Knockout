@@ -1,0 +1,70 @@
+material dragonfootsoldier_0
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture DragonFootSoldierSkinChromaticDark.tga -1
+			}
+		}
+	}
+}
+material dragonfootsoldier_1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture DragonFootSoldierSkinChromaticDark.tga -1
+			}
+		}
+	}
+}
+material dragonfootsoldier_2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture DragonFootSoldierSkinChromaticDark.tga -1
+			}
+		}
+	}
+}
+material dragonfootsoldier_3
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture DragonFootSoldierSkinChromaticDark.tga -1
+			}
+		}
+	}
+}
+material dragonfootsoldier_4
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture DragonFootSoldierSkinChromaticDark.tga -1
+			}
+		}
+	}
+}

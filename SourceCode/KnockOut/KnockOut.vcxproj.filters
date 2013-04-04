@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\InputHandler.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\World.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\KnockOutListeners.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OgreKnockOut.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\KnockOutCamera.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ObjectPlacement.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DebugOverlay.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BaseFactory.cpp">
+      <Filter>Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EnemyFactory.cpp">
+      <Filter>Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PathGenerater.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PathManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AIManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ObstacleFactory.cpp">
+      <Filter>Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerFactory.cpp">
+      <Filter>Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CollisionManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WallFactory.cpp">
+      <Filter>Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TowerFactory.cpp">
+      <Filter>Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BulletFactory.cpp">
+      <Filter>Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UserGUI.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Movabletext.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy.cpp">
+      <Filter>GameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EnemyDragon.cpp">
+      <Filter>GameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EnemyTroll.cpp">
+      <Filter>GameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BaseTower.cpp">
+      <Filter>GameObject\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TowerA.cpp">
+      <Filter>GameObject\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TowerB.cpp">
+      <Filter>GameObject\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TowerC.cpp">
+      <Filter>GameObject\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Wall.cpp">
+      <Filter>GameObject\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Obstacle.cpp">
+      <Filter>GameObject\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Bullet.cpp">
+      <Filter>GameObject\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LightChain.cpp">
+      <Filter>GameObject\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EnemyBoss2.cpp">
+      <Filter>GameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EnemyBoss1.cpp">
+      <Filter>GameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UtilsOgreDShow.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CVDShowUtil.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\h-genutils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\Constants.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\AIManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\InputHandler.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\World.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SingletonT.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\KnockOutListeners.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\OgreKnockOut.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\KnockOutCamera.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ObjectPlacement.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DebugOverlay.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BaseObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BaseFactory.h">
+      <Filter>Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\EnemyFactory.h">
+      <Filter>Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\PathFinding.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Node.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\PathGenerater.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\PathManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ObstacleFactory.h">
+      <Filter>Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Player.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\PlayerFactory.h">
+      <Filter>Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\CollisionManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WallFactory.h">
+      <Filter>Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\TowerFactory.h">
+      <Filter>Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BulletFactory.h">
+      <Filter>Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\UserGUI.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MovableText.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Enemy.h">
+      <Filter>GameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\EnemyDragon.h">
+      <Filter>GameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\EnemyTroll.h">
+      <Filter>GameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BaseTower.h">
+      <Filter>GameObject\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\TowerA.h">
+      <Filter>GameObject\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\TowerB.h">
+      <Filter>GameObject\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\TowerC.h">
+      <Filter>GameObject\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Wall.h">
+      <Filter>GameObject\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Obstacle.h">
+      <Filter>GameObject\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Bullet.h">
+      <Filter>GameObject\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\LightChain.h">
+      <Filter>GameObject\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\EnemyBoss1.h">
+      <Filter>GameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\EnemyBoss2.h">
+      <Filter>GameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\UtilsOgreDshow.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\UtilsOgreDshow_private.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\CVDShowUtil.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\h-genutils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{d03b336d-d20c-4601-b4e2-b3ee3499d1ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory">
+      <UniqueIdentifier>{543046cf-5084-4a6f-86f3-e4c21bf1170c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependency">
+      <UniqueIdentifier>{6658f221-18ec-4a11-a300-0c24205dbced}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{e598e02a-84a7-4f24-89f2-68dcbc3cb122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{9c0d309a-eee4-4b15-8944-740ebfbd5026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{c88fbdd2-72e1-4120-b290-9513ad720c98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor">
+      <UniqueIdentifier>{71c663df-758f-4b65-b715-2fe30603e7f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{15692842-3931-4699-a8e5-176fa3f3b74c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{6c551d30-dfa7-4288-aeab-33a24b16ac4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{34f7e1db-3d73-452d-8e25-05a4a532800e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Enemy">
+      <UniqueIdentifier>{efee6d31-a69c-438d-a649-c99398b423c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Tower">
+      <UniqueIdentifier>{708fca2f-1420-4869-b7cd-061a9f1574d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Block">
+      <UniqueIdentifier>{1ab34b67-99f9-4d77-aee9-0a73596d0447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Bullet">
+      <UniqueIdentifier>{8f84dd4d-b1b1-4ce5-bf8d-d98c4a54a537}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
